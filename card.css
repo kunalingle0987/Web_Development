@@ -1,0 +1,153 @@
+body{
+    padding: 0; 
+    margin: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.cards{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width:fit-content;
+    margin: 0 auto;
+   
+}
+.card{
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(18, 16, 16);
+    background-color: rgb(37, 36, 36);
+    width:300px;
+    height: 360px;
+}
+#pimg{
+    border-radius: 100%;
+    border: none;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+
+}
+h1{
+    margin-top: 5px;
+}
+h3{
+    margin-top: 3px;
+}
+.btn{
+
+    background-color: rgb(23, 128, 249);
+    color:white;
+    border: none;
+    border-radius: 5px;
+    
+    padding: 5px;
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+}
+.btn:hover{
+   transition: 0.5s;
+   background-color: rgb(23, 128, 249, 0.5);
+   font-weight: bold;
+}
+.remove{
+    color: azure;
+    position:absolute;
+    left: 90%;
+    width: 30px;
+    height: 32px;
+    border-radius: 10%;
+    border: none;
+    background-color: rgba(129, 124, 124, 0.348);
+    cursor: pointer;
+    
+}
+.remove:hover{
+    font-weight: bold;
+    background-color: rgba(129, 124, 124, 0.822);
+}
+.title{
+    border: 1px solid rgb(121, 110, 110);
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    background-color: rgb(37, 36, 36);
+    display: flex;
+    gap: 20px;
+}
+.title img{
+    width:90px;
+    height: 80px;
+    border-radius: 100%;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.title button{
+    background-color: transparent;
+    border: 2px solid rgb(79, 88, 98);
+    margin-top: 20px;
+
+}
+.title i{
+    color: rgb(249, 251, 253);
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 38%;
+    height: 100px;
+    cursor: pointer;
+}
+.title svg:hover{
+    color: rgb(217, 225, 234);
+    font-weight: bold;
+    transition: 0.5s;
+}
+.container{
+    border: 2px solid rgb(77, 76, 76);
+    position: relative;
+    width: 50%;
+    margin-left: 25%;
+
+}
+.post{
+    border: 2px solid rgb(77, 76, 76);
+    
+}
+.post img{
+    margin: 2px;
+    width: 100%; 
+    border: none;
+}
+.container #dbl{
+    position:absolute;
+    color: rgb(244, 239, 239);
+    font-size: 100px;
+    opacity: 90%;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+    transform: translate(-50%,-50%) scale(0);
+    transition:all ease-out 0.1s ;
+}
+.icons{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(42, 37, 37);
+    gap: 20px;
+}
+.icons i{
+    color: rgb(249, 251, 253);
+    font-size: 40px;
+    cursor: pointer;
+}
+

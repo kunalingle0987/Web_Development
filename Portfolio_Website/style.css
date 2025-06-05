@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(7, 7, 33);
+    color: whitesmoke;
+    font-family:Nunito Sans;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(33, 33, 58);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 30px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    font-size: 1.2rem;
+    color: blueviolet;
+    transition: all ease-in-out 0.2s;
+}
+nav .left{
+    font-size: 2rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 90px  0;
+}
+.firstsection>div{
+    width: 40%;
+  /* border: 1px solid white; */
+}
+.firstsection .left{
+    font-size: 2.5rem;
+   margin: 20px 80px;
+}
+.firstsection .right img{
+    width: 75%;
+    margin: 0 60px;
+    
+}
+.blue{
+    color: rgb(118, 118, 248);
+}
+#element{
+    color: aqua;
+}
+hr{
+    width: 95%;
+}
+.secondsection p{
+    width: 90%;
+    margin: 10px 50px;
+    display: flex;
+    text-align: center;
+    height: 250px; 
+}
+
+
+main h2{
+    display: flex;
+    justify-content: center;
+}
+
+.forthsection {
+    height: 70vh;
+}
+.forthsection .box{
+    border: 1px solid whitesmoke;
+    width: 90vw;
+    height:0px;
+    margin-left: 50px;
+    
+}
+.forthsection .verticals{
+    display: flex;
+    justify-content:space-around;
+}
+.forthsection .verticals .vert{
+    border: 1px solid whitesmoke;
+    height: 5vh;
+    width: 0;
+    /* margin-left: 200px; */
+}
+.forthsection .vert img{
+    width: 60px;
+
+}
+.vert ul{
+    font-size: 12px;
+}
+.thirdsection {
+   text-align: center;
+   margin: 30px 20px;
+
+}
+.fifthsection{
+    margin: 30px 25px;
+}
+.fifthsection .contactDt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.contactDt  ul li{
+    list-style: none;
+   
+}
+.contactDt  ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: azure;
+}
+footer{
+    display: flex;
+    justify-content:space-around;
+    margin: 20px 30px;
+    background-color: rgb(33 33 58);
+}
+footer ul li {
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color:  whitesmoke;
+
+}
+.left button{
+     background-color: black;
+     color: white;
+     border: 1px solid white;
+     border-radius: 5px;
+     padding: 10px 20px;
+      margin: 2px 20px;
+      border-color: rgb(133, 243, 255);
+      box-shadow: transparent;
+}
+.left button:hover{
+    background-color: rgb(51, 76, 76);
+    transition:all 0.3s ease-in ;
+    
+}
+nav ul li a.active {
+    color: #00f; /* Or any highlight color */
+    font-weight: bold;
+    border-bottom: 2px solid #00f;
+}

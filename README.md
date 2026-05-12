@@ -1,3 +1,3 @@
 # javascript- 
 
-Logical Project Og WebDevelopment
+Logical Project Of WebDevelopment
